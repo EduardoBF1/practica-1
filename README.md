@@ -40,18 +40,39 @@ En terminal se pondrá en comando de **” sudo”** este comando nos permite te
 ![5](https://user-images.githubusercontent.com/88467362/155012266-a54fed7d-061e-4341-9a30-0eb93bf7baa4.JPG)
 
 ## 6. Boorar todas las particiones de una usb en terminal.
-Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer estos cambios y la ruta al dispositivo, luego escriba la letra “d” para poder borrar las particiones, para comprobar que se borraron exitosamente usaremos el comando**” sudo fdisk -l ruta al dispositivo”**  
+Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer estos cambios y la ruta al dispositivo, luego escriba la letra “d” para poder borrar las particiones, para comprobar que se borraron exitosamente usaremos el comando**” sudo fdisk -l ruta al dispositivo”**  .
+
 ![6](https://user-images.githubusercontent.com/88467362/155014425-f7554fdd-e47d-4b72-8d39-ce43d057c2e1.JPG)
 ![6 1](https://user-images.githubusercontent.com/88467362/155014445-341ff9cd-6f71-48d5-a5e7-981819c0ca9f.JPG)
 
 ## 7. Crear en el “usb” tres particiones físicas y una extendida en terminal.
+Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, luego escriba la letra “n” para poder acceder a el apartado de añadir particiones luego escogeremos la letra “ p “ para hacer las particiones primarias, para comprobar que se agregaron exitosamente usaremos el comando**” sudo fdisk -l ruta al dispositivo”**  .
+
+![7](https://user-images.githubusercontent.com/88467362/155019581-12f8c19b-9406-422b-8fdd-373e0d374259.JPG)
+
+![7 1](https://user-images.githubusercontent.com/88467362/155019596-689a6f0a-495e-43c4-b60b-f82efe3376cf.JPG)
+
+## 8. Crear una partición dentro de la partición extendida del “usb” en terminal.
+Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, al ya no haber espacio para otras particiones primarias y/o extendidas el sistema crea una partición lógica y estas son almacenadas en la partición extendida.
+
+![8](https://user-images.githubusercontent.com/88467362/155019652-d27de383-f73e-43ec-aea3-af60e2aa83d3.JPG)
+
+## 9.- Para borrar las particiones desde la aplicación de discos
+Tenemos que seleccionar la USB, ya seleccionada la USB tenemos que seleccionar las particiones y borrarlas con el icono de “- “que esta debajo de donde se muestran las particiones justo al lado de los engranes de configuración.
+
+![9](https://user-images.githubusercontent.com/88467362/155019769-6df3e8ec-5032-4dad-8a04-416ed5807126.JPG)
 
 
-## 11. Referencias.
+Así tenemos que ir borrando una por una hasta solo dejar una. Ya que tenemos una sola partición tenemos que seleccionarla y apretar el botón de los engranes, una vez adentro tenemos que seleccionar la opción de redimensionar e indicar que esa partición utilice todo el espacio de la USB
 
-C.4. Nombres de dispositivos en Linux. (s. f.). Debian. Recuperado 20 de febrero de 2022, de https://www.debian.org/releases/stable/armel/apcs04.es.html
-A. (2021, 24 septiembre). Preguntaste: ¿Qué es Linux VDA? CompuHoy.com. Recuperado 20 de septiembre de 2022, de https://www.compuhoy.com/preguntaste-que-es-linux-vda/
-Suárez, R. (2021). FUSE: todo es un fichero. Dialnet. Recuperado 20 de febrero de 2022, de https://dialnet.unirioja.es/servlet/articulo?codigo=3208255
+![9 2](https://user-images.githubusercontent.com/88467362/155019797-70ccb9d5-d70e-41bc-86e3-5ef3870fc075.JPG)
+
+
+¡Y listo! Así tendrás una partición que ocupe toda la memoria USB.
+
+![9 3](https://user-images.githubusercontent.com/88467362/155019813-7d0d545a-3b58-47ae-ac4f-b4256fc66fc0.JPG)
+
+
 
 
 

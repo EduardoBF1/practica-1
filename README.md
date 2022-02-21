@@ -73,7 +73,22 @@ Así tenemos que ir borrando una por una hasta solo dejar una. Ya que tenemos un
 ![9 3](https://user-images.githubusercontent.com/88467362/155019813-7d0d545a-3b58-47ae-ac4f-b4256fc66fc0.JPG)
 
 
+## 10. Copiar un archivo .iso de distribución live de linux a la usb por medio del comando "dd".
 
+El primer paso para copiar un archivo .iso de distribución live de Linux es descargar la el .iso de la distribuidora que queramos en este caso fue Ubuntu. 
+Imagen de la pagina de Ubuntu.
+
+![image](https://user-images.githubusercontent.com/88467362/155021322-9355e449-c343-4027-bf98-6aa8d4f5483e.png)
+
+Después le cambiamos el nombre al archivo .iso que se descarga para poderlo ubicar más fácil en este caso le pondremos Linux. 
+Imagen donde están los archivos descargados.
+
+![image](https://user-images.githubusercontent.com/88467362/155021337-77d04982-cc84-4739-bcea-dc15e555792c.png)
+
+Y por último con el comando “dd” copiamos ese archivo0 a nuestra USB.
+Foto 10
+
+![image](https://user-images.githubusercontent.com/88467362/155021360-68b69c58-6c8e-4535-8037-6d93e77446e1.png)
 
 
 

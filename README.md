@@ -48,12 +48,15 @@ Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, al ya no haber 
 ![8](https://user-images.githubusercontent.com/88467362/155017999-2696447a-0fea-4d31-a2de-4f012675e69f.JPG)
 ## 9. En la interfaz gráfica de la aplicación disks, borrar las particiones para que sólo exista una partición que abarque toda la “usb”.
 Tenemos que seleccionar las particiones y borrarlas con el icono de “- “que esta debajo de donde se muestran las particiones justo al lado de los engranes de configuración.
+
 ![9](https://user-images.githubusercontent.com/88467362/155018551-bc326aec-3310-4595-9799-d322f3a24005.JPG)
 
 Así tenemos que ir borrando una por una hasta solo dejar una. Ya que tenemos una sola partición tenemos que seleccionarla y apretar el botón de los engranes, una vez adentro tenemos que seleccionar la opción de redimensionar e indicar que esa partición utilice todo el espacio de la USB
+
 ![9 2](https://user-images.githubusercontent.com/88467362/155018584-7a21b793-a511-4fef-96c5-17c8aa511b06.JPG)
 
 ¡Y listo! Así tendrás una partición que ocupe toda la memoria USB.
+
 ![9 3](https://user-images.githubusercontent.com/88467362/155018606-c979be26-adc4-448e-8457-1aea670f5cbd.JPG)
 
 ## 10. Copiar un archivo .iso de distribución live de linux a la usb por medio del comando "dd".

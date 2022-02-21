@@ -3,6 +3,14 @@ En esta práctica observaremos el manejo de discos con comandos dentro de la ter
 
 ## 1. Identificar y describir las diferencias entre hda, sda y vda, además explicar que significa la letra y el numero al final de los identificadores.
 
+La diferencia entre hda, sda y vda es que sda se le asigna a un disco SCSI, que es una interface de pequeños sistemas informáticos que puede ser una USB, mientras que al vda que significa agente de entrega virtual, se le asigna a un controlador permita una conexión una máquina y un dispositivo personal y hda se le asigna a un disco maestro en el controlador IDE que permite la conexión a diferentes dispositivos internos.
+Todas estas denominaciones aparecen como entradas en el directorio /dev.
+El sda es el nombre que se le da al primer disco que la maquina detecta y la última letra se ira cambiado por orden alfabetico cada vez que se detecte un disco, por lo que, el primer disco que detecte le pondrá de nombre sda, el segundo disco que detecte lo llamara sdb y asi sucesivamente y se le asignara un numero al final que indica el número de partición del disco por ejemplo sda1, sda2, sda3, etc.
+El vda puede acceder a aplicaciones virtuales de Linux en cualquier momento y en cualquier dispositivo con la ayuda de la aplicación Citrix Workspace.
+En el caso de hda, Linux reconoce un disco duro como completo y cada partición se le asignara un numero que va al final por ejemplo hda1, hd2, hd3, etc.
+Las siglas vda significa virtual Delivery Agent en ingles, las siglas sda significa disco SCSI que significa Interface de Sistemas Pequeños de Información, mientras que hda es el controlador IDE que significa Integrated Drive Electronics.
+
+
 ## 2. Para poder montar y desmontar un disco externo en linix.
 Primero tenemos que observar si el disco está montado con el comando de **"lsblk"** si esta mondado lo podremos desmontar con el comando de **"umount seguido de la dirección en donde se encuentra el disco"** como se muestra en la imagen siguiente.
 
@@ -37,29 +45,9 @@ Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer e
 ![6 1](https://user-images.githubusercontent.com/88467362/155014445-341ff9cd-6f71-48d5-a5e7-981819c0ca9f.JPG)
 
 ## 7. Crear en el “usb” tres particiones físicas y una extendida en terminal.
-Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, luego escriba la letra “n” para poder acceder a el apartado de añadir particiones luego escogeremos la letra “ p “ para hacer las particiones primarias, para comprobar que se agregaron exitosamente usaremos el comando**” sudo fdisk -l ruta al dispositivo”**  
 
-![7](https://user-images.githubusercontent.com/88467362/155017866-5890e1c3-869a-4fd2-ab81-1a70f2c38c87.JPG)
-![7 1](https://user-images.githubusercontent.com/88467362/155017888-5d0af8ff-0efe-4cea-b1a0-ba8a86a944c8.JPG)
 
-## 8. Crear una partición dentro de la partición extendida del “usb” en terminal.
-Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, al ya no haber espacio para otras particiones primarias y/o extendidas el sistema crea una partición lógica y estas son almacenadas en la partición extendida.
 
-![8](https://user-images.githubusercontent.com/88467362/155017999-2696447a-0fea-4d31-a2de-4f012675e69f.JPG)
-## 9. En la interfaz gráfica de la aplicación disks, borrar las particiones para que sólo exista una partición que abarque toda la “usb”.
-Tenemos que seleccionar las particiones y borrarlas con el icono de “- “que esta debajo de donde se muestran las particiones justo al lado de los engranes de configuración.
-
-![9](https://user-images.githubusercontent.com/88467362/155018551-bc326aec-3310-4595-9799-d322f3a24005.JPG)
-
-Así tenemos que ir borrando una por una hasta solo dejar una. Ya que tenemos una sola partición tenemos que seleccionarla y apretar el botón de los engranes, una vez adentro tenemos que seleccionar la opción de redimensionar e indicar que esa partición utilice todo el espacio de la USB
-
-![9 2](https://user-images.githubusercontent.com/88467362/155018584-7a21b793-a511-4fef-96c5-17c8aa511b06.JPG)
-
-¡Y listo! Así tendrás una partición que ocupe toda la memoria USB.
-
-![9 3](https://user-images.githubusercontent.com/88467362/155018606-c979be26-adc4-448e-8457-1aea670f5cbd.JPG)
-
-## 10. Copiar un archivo .iso de distribución live de linux a la usb por medio del comando "dd".
 
 
 

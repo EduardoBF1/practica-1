@@ -41,3 +41,4 @@ Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer e
 
 
 
+

@@ -86,7 +86,6 @@ Imagen donde están los archivos descargados.
 ![image](https://user-images.githubusercontent.com/88467362/155021337-77d04982-cc84-4739-bcea-dc15e555792c.png)
 
 Y por último con el comando “dd” copiamos ese archivo0 a nuestra USB.
-Foto 10
 
 ![image](https://user-images.githubusercontent.com/88467362/155021360-68b69c58-6c8e-4535-8037-6d93e77446e1.png)
 

@@ -46,8 +46,7 @@ Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, luego escriba l
 Comenzamos a trabajar usando **fdisk** y la ruta al dispositivo, al ya no haber espacio para otras particiones primarias y/o extendidas el sistema crea una partición lógica y estas son almacenadas en la partición extendida.
 
 ![8](https://user-images.githubusercontent.com/88467362/155017999-2696447a-0fea-4d31-a2de-4f012675e69f.JPG)
-## 9. En la interfaz gráfica de la aplicación disks, borrar las particiones para que sólo exista una
-partición que abarque toda la “usb”.
+## 9. En la interfaz gráfica de la aplicación disks, borrar las particiones para que sólo exista una partición que abarque toda la “usb”.
 
 
 ## 10. Copiar un archivo .iso de distribución live de linux a la usb por medio del comando "dd".

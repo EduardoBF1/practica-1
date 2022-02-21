@@ -1,7 +1,7 @@
 # practica-1
 En esta práctica observaremos el manejo de discos con comandos dentro de la terminal de Linux.
 
-## 2. Para poder montar y desmontar un disco externo en linix 
+## 2. Para poder montar y desmontar un disco externo en linix.
 Primero tenemos que observar si el disco está montado con el comando de **"lsblk"** si esta mondado lo podremos desmontar con el comando de **"umount seguido de la dirección en donde se encuentra el disco"** como se muestra en la imagen siguiente.
 
 ![1](https://user-images.githubusercontent.com/88467362/155009044-10d79196-d6a6-4fcd-93ab-6bd65fb87344.JPG)
@@ -14,21 +14,28 @@ Primero tenemos que observar si el disco está montado con el comando de **"lsbl
       
 ![1 3 con permisos](https://user-images.githubusercontent.com/88467362/155010123-7a8ffb9b-e8e1-484a-9269-dd46be71d27c.JPG)
 
-## 3. Para poder enlistar los dispositivos de bloque que se encuentran conectados 
+## 3. Para poder enlistar los dispositivos de bloque que se encuentran conectados. 
 Lo podremos mostrar en terminal con el comando de **”lsblk”**.
  
 ![3](https://user-images.githubusercontent.com/88467362/155010937-371a0ee7-0e80-4fd8-a988-378cef3e5d59.JPG)
 
-## 4. Si desea observar la tabla de particiones del disco en el que contiene el sistema operativo
+## 4. Si desea observar la tabla de particiones del disco en el que contiene el sistema operativo.
 En terminal se pondrá el comando de **”blkid”**.
 
 ![4](https://user-images.githubusercontent.com/88467362/155012102-4e1e34f0-e064-4837-b738-825c523413bf.JPG)
 
-## 5. Para observar la tabla de particiones de la “usb” 
+## 5. Para observar la tabla de particiones de la “usb”. 
 En terminal se pondrá en comando de **” sudo”** este comando nos permite tener permisos para obtener esta información seguido de los comandos **”fdisk -l con la dirección del archivo que se desea”**.
 
 ![5](https://user-images.githubusercontent.com/88467362/155012266-a54fed7d-061e-4341-9a30-0eb93bf7baa4.JPG)
 
-## 6. Boorar todas las particiones de una usb en terminal
+## 6. Boorar todas las particiones de una usb en terminal.
+Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer estos cambios y la ruta al dispositivo, luego escriba la letra “d” para poder borrar las particiones, para comprobar que se borraron exitosamente usaremos el comando**” sudo fdisk -l ruta al dispositivo”**  
+![6](https://user-images.githubusercontent.com/88467362/155014425-f7554fdd-e47d-4b72-8d39-ce43d057c2e1.JPG)
+![6 1](https://user-images.githubusercontent.com/88467362/155014445-341ff9cd-6f71-48d5-a5e7-981819c0ca9f.JPG)
+
+
+
+
 
 

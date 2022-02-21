@@ -11,13 +11,15 @@ En esta práctica observaremos el manejo de discos con comandos dentro de la ter
 ![1 3 con permisos](https://user-images.githubusercontent.com/88467362/155010123-7a8ffb9b-e8e1-484a-9269-dd46be71d27c.JPG)
 
 3. Para poder enlistar los dispositivos de bloque que se encuentran conectados lo podremos mostrar en terminal con el comando de **”lsblk”**.
-4. 
+ 
 ![3](https://user-images.githubusercontent.com/88467362/155010937-371a0ee7-0e80-4fd8-a988-378cef3e5d59.JPG)
 
 4. Si desea observar la tabla de particiones del disco en el que contiene el sistema operativo, en terminal se pondrá el comando de **”blkid”**.
+
 ![4](https://user-images.githubusercontent.com/88467362/155012102-4e1e34f0-e064-4837-b738-825c523413bf.JPG)
 
 5. Para observar la tabla de particiones de la “usb” , en terminal se pondrá en comando de **” sudo”** este comando nos permite tener permisos para obtener esta información seguido de los comandos **”fdisk -l con la dirección del archivo que se desea”**.
+
 ![5](https://user-images.githubusercontent.com/88467362/155012266-a54fed7d-061e-4341-9a30-0eb93bf7baa4.JPG)
 
 

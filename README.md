@@ -34,6 +34,8 @@ Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer e
 ![6](https://user-images.githubusercontent.com/88467362/155014425-f7554fdd-e47d-4b72-8d39-ce43d057c2e1.JPG)
 ![6 1](https://user-images.githubusercontent.com/88467362/155014445-341ff9cd-6f71-48d5-a5e7-981819c0ca9f.JPG)
 
+## 7. Crear en el “usb” tres particiones físicas y una extendida en terminal.
+
 
 
 

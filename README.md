@@ -47,7 +47,7 @@ Comenzamos a trabajar usando **fdisk** con **sudo** para que nos permita hacer e
 ## 7. Crear en el “usb” tres particiones físicas y una extendida en terminal.
 
 
-## 7. Referencias.
+## 11. Referencias.
 
 C.4. Nombres de dispositivos en Linux. (s. f.). Debian. Recuperado 20 de febrero de 2022, de https://www.debian.org/releases/stable/armel/apcs04.es.html
 A. (2021, 24 septiembre). Preguntaste: ¿Qué es Linux VDA? CompuHoy.com. Recuperado 20 de septiembre de 2022, de https://www.compuhoy.com/preguntaste-que-es-linux-vda/
